@@ -18,9 +18,12 @@ function page() {
         </motion.h1>
       </LampContainer>
 
-      <div className="flex justify-center bg-slate-900/[0.8]">
-        <Button>
+      <div className="flex bg-slate-900/[0.8] justify-center p-4">
+        <Button >
           <Link href={"/resume"}>View Resume</Link>
+        </Button>
+        <Button>
+          <Link href={"/certificates"}>View Certificates</Link>
         </Button>
       </div>
     </div>
